@@ -1,0 +1,37 @@
+---
+pages:
+    - slide: |
+        #Hello, World!#
+        This sample demonstrates how this tool can be used to create a slide
+        presentation from a simple **YAML** file with content formatted using
+        **Markdown** syntax.
+
+        ##Controls##
+        - `<Space>` to go forward
+        - `p` to go back
+        - `O` to open the options menu
+      notes: |
+        Notes can be used to assist you while giving the presentation.
+
+    - slide: |
+        #The second slide#
+        This tool is written in **Ruby** using **RDiscount**'s implementation
+        of **Markdown**.
+        The slides are generated from a **Mustache** template.
+
+        The next slide will introduce some formatting.
+      notes: |
+        Notes are optional. The next slide has no notes.
+
+    - slide: |
+        #Formatting#
+        ##Lists##
+        This is a simple *unordered* list:
+        
+        - one item;
+        - another item;
+        
+        One can also create *ordered* lists:
+        
+        1. first item;
+        1. second item.

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://yui.yahooapis.com/3.4.1/build/yui/yui-min.js"></script>
+		<script src="presentation.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.4.1/build/cssreset/cssreset-min.css">
+		<link rel="stylesheet" href="presentation.css" type="text/css">
+	</head>
+	<body>
+		<article class='presentation'>
+			<section class='page'>
+				<section class='slide'>
+					<h1>Hello, World!</h1>
+
+<p>This sample demonstrates how this tool can be used to create a slide
+presentation from a simple <strong>YAML</strong> file with content formatted using
+<strong>Markdown</strong> syntax.</p>
+
+<h2>Controls</h2>
+
+<ul>
+<li><code>&lt;Space&gt;</code> to go forward</li>
+<li><code>p</code> to go back</li>
+<li><code>O</code> to open the options menu</li>
+</ul>
+
+
+				</section>
+				<section class='notes'>
+					<p>Notes can be used to assist you while giving the presentation.</p>
+
+				</section>
+			</section>
+			<section class='page'>
+				<section class='slide'>
+					<h1>The second slide</h1>
+
+<p>This tool is written in <strong>Ruby</strong> using <strong>RDiscount</strong>'s implementation
+of <strong>Markdown</strong>.
+The slides are generated from a <strong>Mustache</strong> template.</p>
+
+<p>The next slide will introduce some formatting.</p>
+
+				</section>
+				<section class='notes'>
+					<p>Notes are optional. The next slide has no notes.</p>
+
+				</section>
+			</section>
+			<section class='page'>
+				<section class='slide'>
+					<h1>Formatting</h1>
+
+<h2>Lists</h2>
+
+<p>This is a simple <em>unordered</em> list:</p>
+
+<ul>
+<li>one item;</li>
+<li>another item;</li>
+</ul>
+
+
+<p>One can also create <em>ordered</em> lists:</p>
+
+<ol>
+<li>first item;</li>
+<li>second item.</li>
+</ol>
+
+
+				</section>
+			</section>
+		</article>
+		<div id='options'>
+			<ul>
+				<li><a href='#' id='open-notes'>Open notes window</a></li>
+			</ul>
+			<a href='#' id='close-menu'>X</a>
+		</div>
+	</body>
+</html>
